@@ -4,7 +4,7 @@
 
 /* Main Styling */
     body {
-        background-image: url("../Images/PJ_Background.jpg");
+        background-image: url("PJ_Background.jpg");
         Background-size: cover;
         font-family: Gaegu, Corbel;
         margin: 0;
