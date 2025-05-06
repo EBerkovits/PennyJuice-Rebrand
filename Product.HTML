@@ -4,9 +4,9 @@
   <!-- Metadata --> 
 <head>
     <meta charset="utf-8">
-    <title>PennyJuice - Home</title>
+    <title>PennyJuice - Products</title>
     <meta name="keywords" content="las vegas, juice, childcare, healthy, lifestyle, preschool, daycare">
-    <meta name="author" content="Emma Berkovits">
+    <meta name="author" content="E.Berkovits">
     <meta name="viewport" content="width-device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="MyStyle.css">
 </head>
@@ -29,15 +29,13 @@
             <ul> 
                 <li><a class="home-btn" href="Index.HTML"> HOME </a></li>
                 <li><a class="about-btn" href="About.HTML"> ABOUT US </a></li>
-                <li><a class="product-btn" href="Product.HTML"> <b>PRODUCT</b> </a>
-                    <ul class="dropdown-links">
-                        <li><a href="Organic.HTML"><p>Organic</p></a></li>
-                        <li><a href="Smoothies.HTML"><p>Smoothies</p></a></li>
-                        <li><a href="Kids.HTML"><p>Kids</p></a></li>
-                    </ul>
-                   </li>
+                <li><a class="product-btn" href="Product.HTML"> <b>PRODUCT</b> </a></li>
                 <li><a class="blog-btn" href="Blog.HTML"> BLOG </a></li>
-                <li><a class="order-btn" href="Order.HTML"> ORDER </a></li>
+                <li><a class="order-btn" href="Order.HTML"> ORDER </a>
+                <ul class="dropdown-links">
+                        <li><a href="Order.HTML"><p>Order</p></a></li>
+                        <li><a href="Order.HTML"><p>Contact</p></a></li>
+                    </ul></li>
             </ul>
         </div>
         </div>
@@ -47,21 +45,22 @@
 <!-- Main Body -->
   
    <!-- Products -->
-
         <div id= "product-body">
             <div class= "product-square"> 
-                      <a class="apple-button" href="#popup"><img src="Apple_PI.jpg" alt="link to Apple juice product" width=100%></a>
-                        <div class="popup" id="popup">
+                      <a class="ingredients-button" href="#popup1"><img src="Apple_PI.jpg" alt="link to Apple juice product" width=100%></a>
+                        <div class="popup" id="popup1">
                         <div class="popup-inner">
                         <div class="popupphoto"><img src="Apple_PI.jpg" alt="apple product"></div>
                             <div class="popuptext">
                             <h1>Apple Juice</h1>
-                                <p>This juice is perfect for a nice summer day. </p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et. </p>
                                 <ul>Ingredients: 
-                                <li>Water</li>
-                                <li>Sugar</li>
+                                <li>Pure filtered water</li>
+                                <li>Concentrated apple juice</li>
                                 <li>Stevia extract</li>
-                                <li>Apple juice concentrate</li>
+                                <li>Less than 0.5% calcium citrate</li>
+                                <li>Vitamin c</li>
                                 </ul>
                                 <h2>$3.99</h2>
                           </div>
@@ -75,85 +74,384 @@
                 </div>
                 
             <div class= "product-square"> 
-                <img src="Berry_PI.jpg" alt="link to berry juice product" width=100%>
+                <a class="ingredients-button" href="#popup2"><img src="Berry_PI.jpg" alt="link to berry juice product" width=100%></a>
+                        <div class="popup" id="popup2">
+                        <div class="popup-inner">
+                        <div class="popupphoto"><img src="Berry_PI.jpg" alt="berry juice product"></div>
+                            <div class="popuptext">
+                            <h1>Berry Punch</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et. </p>
+                                <ul>Ingredients: 
+                                <li>Pure filtered water</li>
+                                <li>Concentrated grape juice</li>
+                                <li>Concentrated pear juice</li>
+                                <li>Stevia extract</li>
+                                <li>Concentrated strawberry juice</li>
+                                <li>Vitamin c</li>
+                                </ul>
+                                <h2>$3.99</h2>
+                          </div>
+                        <a class="closepopup" href="#">X</a>
+                        </div>
+                        </div>
                 <div class="product-title">Berry Punch</div>
                 <div class="product-desc">List of ingredients, brief flavor description</div>
                 <div class="price">$2.99</div>
                 <div class="add-to-cart-btn"><button><a> Add to Cart </a></button></div>
                 </div>
-            <div class= "product-square"> <img src="BlueRaspberry_PI.jpg" alt="link to blue raspberry juice product" width=100%>
+                
+            <div class= "product-square"> 
+               <a class="ingredients-button" href="#popup3"><img src="BlueRaspberry_PI.jpg" alt="link to blue raspberry product" width=100%></a>
+                        <div class="popup" id="popup3">
+                        <div class="popup-inner">
+                        <div class="popupphoto"><img src="BlueRaspberry_PI.jpg" alt="blue raspberry product"></div>
+                            <div class="popuptext">
+                            <h1>Blue Raspberry</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et. </p>
+                                <ul>Ingredients: 
+                                <li>Pure filtered water</li>
+                                <li>Concentrated pear juice</li>
+                                <li>Concentrated raspberry juice</li>
+                                <li>Concentrated orange juice</li>
+                                <li>Stevia extract</li>
+                                <li>Blue 1</li>
+                                </ul>
+                                <h2>$3.99</h2>
+                          </div>
+                        <a class="closepopup" href="#">X</a>
+                        </div>
+                        </div>
                 <div class="product-title">Blue Raspberry</div>
                 <div class="product-desc">List of ingredients, brief flavor description</div>
                 <div class="price">$2.99</div>
                 <div class="add-to-cart-btn"><button><a> Add to Cart </a></button></div>
                 </div>
-            <div class= "product-square"> <img src="Cherry_PI.jpg" alt="link to cherry juice product" width=100%>
+                
+            <div class= "product-square"> 
+                <a class="ingredients-button" href="#popup4"><img src="Cherry_PI.jpg" alt="link to cherry juice product" width=100%></a>
+                        <div class="popup" id="popup4">
+                        <div class="popup-inner">
+                        <div class="popupphoto"><img src="Cherry_PI.jpg" alt="cherry juice product"></div>
+                            <div class="popuptext">
+                            <h1>Black Cherry</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et. </p>
+                                <ul>Ingredients: 
+                                <li>Pure filtered water</li>
+                                <li>Concentrated black cherry juice</li>
+                                <li>Grape skin extract (for color)</li>
+                                <li>Stevia extract</li>
+                                <li>Concentrated strawberry juice</li>
+                                </ul>
+                                <h2>$3.99</h2>
+                          </div>
+                        <a class="closepopup" href="#">X</a>
+                        </div>
+                        </div>
                 <div class="product-title">Black Cherry</div>
                 <div class="product-desc">List of ingredients, brief flavor description</div>
                 <div class="price">$2.99</div>
                 <div class="add-to-cart-btn"><button><a> Add to Cart </a></button></div>
                 </div>
-            <div class= "product-square"> <img src="CitrusPunch_PI.jpg" alt="link to citrus punch juice product" width=100%>
+                
+            <div class= "product-square"> 
+                <a class="ingredients-button" href="#popup5"><img src="CitrusPunch_PI.jpg" alt="link to citrus punch product" width=100%></a>
+                        <div class="popup" id="popup5">
+                        <div class="popup-inner">
+                        <div class="popupphoto"><img src="CitrusPunch_PI.jpg" alt="citrus punch product"></div>
+                            <div class="popuptext">
+                            <h1>Citrus Punch</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et. </p>
+                                <ul>Ingredients: 
+                                <li>Pure filtered water</li>
+                                <li>Concentrated orange juice</li>
+                                <li>Concentrated grapefruit juice</li>
+                                <li>Concentrated lemon juice</li>
+                                <li>Stevia extract</li>
+                                </ul>
+                                <h2>$3.99</h2>
+                          </div>
+                        <a class="closepopup" href="#">X</a>
+                        </div>
+                        </div>
                 <div class="product-title">Citrus Punch</div>
                 <div class="product-desc">List of ingredients, brief flavor description</div>
                 <div class="price">$2.99</div>
                 <div class="add-to-cart-btn"><button><a> Add to Cart </a></button></div>
                 </div>
-            <div class= "product-square"> <img src="CranApple_PI.jpg" alt="link to Cranberry-apple juice product" width=100%>
+                
+            <div class= "product-square"> 
+                <a class="ingredients-button" href="#popup6"><img src="CranApple_PI.jpg" alt="link to cranapple juice product" width=100%></a>
+                        <div class="popup" id="popup6">
+                        <div class="popup-inner">
+                        <div class="popupphoto"><img src="CranApple_PI.jpg" alt="Cranapple product"></div>
+                            <div class="popuptext">
+                            <h1>CranApple</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et. </p>
+                                <ul>Ingredients: 
+                                <li>Pure filtered water</li>
+                                <li>Concentrated cranberry juice</li>
+                                <li>Concentrated apple juice</li>
+                                <li>Concentrated lemon juice</li>
+                                <li>Stevia extract</li>
+                                <li>Vitamin C</li>
+                                </ul>
+                                <h2>$3.99</h2>
+                          </div>
+                        <a class="closepopup" href="#">X</a>
+                        </div>
+                        </div>
                 <div class="product-title">CranApple</div>
                 <div class="product-desc">List of ingredients, brief flavor description</div>
                 <div class="price">$2.99</div>
                 <div class="add-to-cart-btn"><button><a> Add to Cart </a></button></div>
                 </div>
-            <div class= "product-square"> <img src="FruitPunch_PI.jpg" alt="link to fruit punch product" width=100%>
+                
+            <div class= "product-square"> 
+                <a class="ingredients-button" href="#popup7"><img src="FruitPunch_PI.jpg" alt="link to fruit punch product" width=100%></a>
+                        <div class="popup" id="popup7">
+                        <div class="popup-inner">
+                        <div class="popupphoto"><img src="FruitPunch_PI.jpg" alt="fruit punch product"></div>
+                            <div class="popuptext">
+                            <h1>Fruit Punch</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et. </p>
+                                <ul>Ingredients: 
+                                <li>Pure filtered water</li>
+                                <li>Concentrated pineapple juice</li>
+                                <li>Concentrated passionfruit juice</li>
+                                <li>Concentrated apple juice</li>
+                                <li>Concentrated white grape juice</li>
+                                <li>Stevia extract</li>
+                                <li>Vitamin C</li>
+                                </ul>
+                                <h2>$3.99</h2>
+                          </div>
+                        <a class="closepopup" href="#">X</a>
+                        </div>
+                        </div>
                 <div class="product-title">Fruit Punch</div>
                 <div class="product-desc">List of ingredients, brief flavor description</div>
                 <div class="price">$2.99</div>
                 <div class="add-to-cart-btn"><button><a> Add to Cart </a></button></div>
                 </div>
-            <div class= "product-square"> <img src="GreenWatermelon_PI.jpg" alt="link to green watermelon juice product" width=100%>
+                
+            <div class= "product-square"> 
+                <a class="ingredients-button" href="#popup8"><img src="GreenWatermelon_PI.jpg" alt="link to Watermelon juice product" width=100%></a>
+                        <div class="popup" id="popup8">
+                        <div class="popup-inner">
+                        <div class="popupphoto"><img src="GreenWatermelon_PI.jpg" alt="Watermelon product"></div>
+                            <div class="popuptext">
+                            <h1>Green Watermelon</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et. </p>
+                                <ul>Ingredients: 
+                                <li>Pure filtered water</li>
+                                <li>Concentrated watermelon juice</li>
+                                <li>Concentrated lemon juice</li>
+                                <li>Concentrated cherry juice</li>
+                                <li>Stevia extract</li>
+                                <li>Hibiscus</li>
+                                </ul>
+                                <h2>$3.99</h2>
+                          </div>
+                        <a class="closepopup" href="#">X</a>
+                        </div>
+                        </div>
                 <div class="product-title">Green Watermelon</div>
                 <div class="product-desc">List of ingredients, brief flavor description</div>
                 <div class="price">$2.99</div>
                 <div class="add-to-cart-btn"><button><a> Add to Cart </a></button></div>
                 </div>
-            <div class= "product-square"> <img src="OrangePineapple_PI.jpg" alt="link to Orange Pineapple juice product" width=100%>
+                
+            <div class= "product-square"> 
+                <a class="ingredients-button" href="#popup9"><img src="OrangePineapple_PI.jpg" alt="link to orange pineapple juice product" width=100%></a>
+                        <div class="popup" id="popup9">
+                        <div class="popup-inner">
+                        <div class="popupphoto"><img src="OrangePineapple_PI.jpg" alt="Orange pineapple product"></div>
+                            <div class="popuptext">
+                            <h1>Orange Pineapple</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et. </p>
+                                <ul>Ingredients: 
+                                <li>Pure filtered water</li>
+                                <li>Concentrated pineapple juice</li>
+                                <li>Concentrated orange juice</li>
+                                <li>Concentrated lemon juice</li>
+                                <li>Stevia extract</li>
+                                <li>Natural Flavors</li>
+                                </ul>
+                                <h2>$3.99</h2>
+                          </div>
+                        <a class="closepopup" href="#">X</a>
+                        </div>
+                        </div>
                 <div class="product-title">Orange Pineapple</div>
                 <div class="product-desc">List of ingredients, brief flavor description</div>
                 <div class="price">$2.99</div>
                 <div class="add-to-cart-btn"><button><a> Add to Cart </a></button></div>
                 </div>
-            <div class= "product-square"> <img src="OrangeRaspberry_PI.jpg" alt="link to orange raspberry juice product" width=100%>
+            <div class= "product-square"> 
+                <a class="ingredients-button" href="#popup10"><img src="OrangeRaspberry_PI.jpg" alt="link to orange raspberry juice product" width=100%></a>
+                        <div class="popup" id="popup10">
+                        <div class="popup-inner">
+                        <div class="popupphoto"><img src="OrangeRaspberry_PI.jpg" alt="Orange raspberry product"></div>
+                            <div class="popuptext">
+                            <h1>Orange Raspberry</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et. </p>
+                                <ul>Ingredients: 
+                                <li>Pure filtered water</li>
+                                <li>Concentrated raspberry juice</li>
+                                <li>Concentrated orange juice</li>
+                                <li>Concentrated lemon juice</li>
+                                <li>Stevia extract</li>
+                                <li>Natural flavors</li>
+                                </ul>
+                                <h2>$3.99</h2>
+                          </div>
+                        <a class="closepopup" href="#">X</a>
+                        </div>
+                        </div>
                 <div class="product-title">Orange Raspberry</div>
                 <div class="product-desc">List of ingredients, brief flavor description</div>
                 <div class="price">$2.99</div>
                 <div class="add-to-cart-btn"><button><a> Add to Cart </a></button></div>
                 </div>
-            <div class= "product-square"> <img src="PeachMango_PI.jpg" alt="link to peach mango juice product" width=100%>
+                
+            <div class= "product-square"> 
+                <a class="ingredients-button" href="#popup11"><img src="PeachMango_PI.jpg" alt="link to peach mango juice product" width=100%></a>
+                        <div class="popup" id="popup11">
+                        <div class="popup-inner">
+                        <div class="popupphoto"><img src="PeachMango_PI.jpg" alt="Peach mango product"></div>
+                            <div class="popuptext">
+                            <h1>Peach Mango</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et. </p>
+                                <ul>Ingredients: 
+                                <li>Pure filtered water</li>
+                                <li>Concentrated peach juice</li>
+                                <li>Concentrated mango juice</li>
+                                <li>Stevia extract</li>
+                                <li>Vitamin C</li>
+                                </ul>
+                                <h2>$3.99</h2>
+                          </div>
+                        <a class="closepopup" href="#">X</a>
+                        </div>
+                        </div>
                 <div class="product-title">Peach Mango</div>
                 <div class="product-desc">List of ingredients, brief flavor description</div>
                 <div class="price">$2.99</div>
                 <div class="add-to-cart-btn"><button><a> Add to Cart </a></button></div>
                 </div>
-            <div class= "product-square"> <img src="StawberryKiwi_PI.jpg" alt="link to strawberry kiwi juice product" width=100%>
+                
+            <div class= "product-square"> 
+                <a class="ingredients-button" href="#popup12"><img src="stawberrykiwi_PI.jpg" alt="link to Strawberry kiwi juice product" width=100%></a>
+                        <div class="popup" id="popup12">
+                        <div class="popup-inner">
+                        <div class="popupphoto"><img src="StawberryKiwi_PI.jpg" alt="strawberry kiwi product"></div>
+                            <div class="popuptext">
+                            <h1>Strawberry Kiwi</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et. </p>
+                                <ul>Ingredients: 
+                                <li>Pure filtered water</li>
+                                <li>Concentrated strawberry juice</li>
+                                <li>Concentrated kiwi juice</li>
+                                <li>Stevia extract</li>
+                                <li>Vitamin C</li>
+                                </ul>
+                                <h2>$3.99</h2>
+                          </div>
+                        <a class="closepopup" href="#">X</a>
+                        </div>
+                        </div>
                 <div class="product-title">Strawberry Kiwi</div>
                 <div class="product-desc">List of ingredients, brief flavor description</div>
                 <div class="price">$2.99</div>
                 <div class="add-to-cart-btn"><button><a> Add to Cart </a></button></div>
                 </div>
-            <div class= "product-square"> <img src="StrawberryBanana_PI.jpg" alt="link to strawberry banana juice product" width=100%>
+                
+            <div class= "product-square"> 
+                <a class="ingredients-button" href="#popup13"><img src="StrawberryBanana_PI.jpg" alt="link to strawberry banana juice product" width=100%></a>
+                        <div class="popup" id="popup13">
+                        <div class="popup-inner">
+                        <div class="popupphoto"><img src="StrawberryBanana_PI.jpg" alt="strawberry banana product"></div>
+                            <div class="popuptext">
+                            <h1>Strawberry Banana</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et. </p>
+                                <ul>Ingredients: 
+                                <li>Pure filtered water</li>
+                                <li>Concentrated strawberry juice</li>
+                                <li>Banana puree</li>
+                                <li>Stevia extract</li>
+                                <li>Vitamin C</li>
+                                </ul>
+                                <h2>$3.99</h2>
+                          </div>
+                        <a class="closepopup" href="#">X</a>
+                        </div>
+                        </div>
                 <div class="product-title">Strawberry Banana</div>
                 <div class="product-desc">List of ingredients, brief flavor description</div>
                 <div class="price">$2.99</div>
                 <div class="add-to-cart-btn"><button><a> Add to Cart </a></button></div>
                 </div>
-            <div class= "product-square"> <img src="Tangerine_PI.jpg" alt="link to tangerine juice product" width=100%>
+                
+            <div class= "product-square"> 
+                <a class="ingredients-button" href="#popup14"><img src="Tangerine_PI.jpg" alt="link to tangerine juice product" width=100%></a>
+                        <div class="popup" id="popup14">
+                        <div class="popup-inner">
+                        <div class="popupphoto"><img src="Tangerine_PI.jpg" alt="Tangerine product"></div>
+                            <div class="popuptext">
+                            <h1>Tangerine</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et. </p>
+                                <ul>Ingredients: 
+                                <li>Pure filtered water</li>
+                                <li>Concentrated tangerine juice</li>
+                                <li>Concentrated orange juice</li>
+                                <li>Concentrated strawberry juice</li>
+                                <li>Stevia extract</li>
+                                </ul>
+                                <h2>$3.99</h2>
+                          </div>
+                        <a class="closepopup" href="#">X</a>
+                        </div>
+                        </div>
                 <div class="product-title">Tangerine</div>
                 <div class="product-desc">List of ingredients, brief flavor description</div>
                 <div class="price">$2.99</div>
                 <div class="add-to-cart-btn"><button><a> Add to Cart </a></button></div>
                 </div>
-            <div class= "product-square"> <img src="WhiteGrape_PI.jpg" alt="link to white grape juice product" width=100%>
+                
+            <div class= "product-square"> 
+                <a class="ingredients-button" href="#popup15"><img src="WhiteGrape_PI.jpg" alt="link to white grape juice product" width=100%></a>
+                        <div class="popup" id="popup15">
+                        <div class="popup-inner">
+                        <div class="popupphoto"><img src="WhiteGrape_PI.jpg" alt="White grape product"></div>
+                            <div class="popuptext">
+                            <h1>White Grape</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et. </p>
+                                <ul>Ingredients: 
+                                <li>Pure filtered water</li>
+                                <li>Concentrated white grape juice</li>
+                                <li>Concentrated red grape juice</li>
+                                <li>Stevia extract</li>
+                                <li>Vitamin C</li>
+                                </ul>
+                                <h2>$3.99</h2>
+                          </div>
+                        <a class="closepopup" href="#">X</a>
+                        </div>
+                        </div>
                 <div class="product-title">White Grape</div>
                 <div class="product-desc">List of ingredients, brief flavor description</div>
                 <div class="price">$2.99</div>
@@ -162,20 +460,13 @@
         </div>
 
 
-
-
-
-
-       
   <!-- Footer -->
         <div class="footer">
             Copyright &copy; Penny Juice 2025
-        </div>
-           
+        </div>     
     </div>
 
 </body>
 </html>
 
--->
-
+<!-- END -->
