@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!-- Metadata --> 
+<head>
+    <meta charset="utf-8">
+    <title>PennyJuice - Order</title>
+    <meta name="keywords" content="las vegas, juice, childcare, healthy, lifestyle, preschool, daycare">
+    <meta name="author" content="Emma Berkovits">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../CSS/MyStyle.css">
+    
+    <style>
+        input[type=text], select {
+            width: 100%;
+            display: inline-block;
+            border: 2px solid #6c8c67;
+            border-radius: 25px;
+            box-sizing: border-box;}
+    </style>
+</head>
+
+
+<body>
+    <div id="container">
+    
+  <!-- Header -->
+        <div class= "header">
+            <div class="logo">
+                <img src="../Images/PennyJuice_MainLogo.png" alt="PennyJuice Logo" height="79px" width="355px">
+            </div>
+        </div>
+
+        <div id= "content">
+             
+  <!-- Nav -->
+        <div class="topnav">
+            <ul> 
+                <li><a class="home-btn" href="../HTML/Index.HTML"> <b>HOME</b> </a></li>
+                <li><a class="about-btn" href="../HTML/About.HTML"> ABOUT US </a></li>
+                <li><a class="product-btn" href="../HTML/Product.HTML"> PRODUCT </a></li>
+                <li><a class="blog-btn" href="../HTML/Blog.HTML"> BLOG </a></li>
+                <li><a class="order-btn" href="../HTML/Order.HTML"> ORDER </a>
+                <ul class="dropdown-links">
+                        <li><a href="../HTML/Order.HTML"><p>Order</p></a></li>
+                        <li><a href="../HTML/Order.HTML"><p>Contact</p></a></li>
+                    </ul></li>
+            </ul>
+        </div>
+        </div>
+
+
+<!-- Main Body -->
+    <div id="aboutus-body">
+       
+       <!-- box 1 -->
+            <div class="right-image">
+                <ul>
+                    <li><img src="../images/coin_gif_L1.gif"></li>
+                    <li><img src="../images/coin_gif_L2.gif"></li>
+                    <li><img src="../images/coin_gif_L3.gif"></li>
+                </ul>
+            </div>
+
+       
+           
+            
+        <!-- Order Form -->
+            <div class="order-form-body">  
+            
+            <ul class="tabs">
+                <li class="tab">
+                    <input type="radio" name="tabs" checked="checked" id="tab1" />
+                    <label for="tab1">Order</label>
+                    <div id="tab-content1" class="content">
+                      <h1>Place your order</h1>
+
+                          <form class="order-form" action="*/action_page.php">
+                            <label class="order_form_text" for="fname">Your name</label>
+                                <input class="order-form-input" type="text" id="fname" value="John Doe">
+                                
+                            <label class="order_form_text" for="email"> Email </label>
+                                <input class="order-form-input" type="text" id="email" value="Address@domain.com">
+                                
+                            <label class="order_form_text" for="country"> Country </label>
+                                <input class="order-form-input" type="text" id="country" value="Select a country">
+                                
+                            <label class="order_form_text" for="Address"> Address </label>
+                                <input class="order-form-input" type="text" id="address" value="Enter your house number and street name">
+                                <input class="order-form-input" type="text" id="address" value="Apartment, suite, unit number (optional)">
+                            
+                            <label class="order_form_text" for="town"> Town/City </label>
+                                <input class="order-form-input" type="text" id="town" value="Enter your town name">
+                                
+                            <label class="order_form_text" for="state"> State/County </label>
+                                <input class="order-form-input" type="text" id="state" value="Enter your state/county name">
+                            
+                            <label class="order_form_text" for="zip"> Postcode/ZIP </label>
+                                <input class="order-form-input" type="text" id="zip" value="Enter your zip code">
+                            
+                            <label class="order_form_text" for="phone"> Phone Number </label>
+                                <input class="order-form-input" type="text" id="phone" value="(000)-000-0000">
+                                
+                            <label class="order_form_text" for="order"> Enter your Order </label>
+                                <input class="order-form-input" type="text" id="order" value="Order">
+                            
+                            <input class="order-sub-btn" type="submit" value="submit">
+                        </form> 
+
+                    </div>
+                </li>
+
+                <li class="tab">
+                  <input type="radio" name="tabs" id="tab2" />
+                  <label for="tab2">Contact</label>   
+                  <div id="tab-content2" class="content">
+                      <h1>Contact us today!</h1>
+                      
+                        <form class="order-form" action="*/action_page.php">
+                            <label class="order_form_text" for="fname">Your name</label>
+                                <input class="order-form-input" type="text" id="fname" value="John Doe">
+                            <label class="order_form_text" for="email"> Email </label>
+                                <input  class="order-form-input"type="text" id="email" value="Address@domain.com">
+                            <label class="order_form_text" for="subject"> Subject </label>
+                                <input class="order-form-input" type="text" id="subject" value="Enter Subject">
+                            <label class="order_form_text" for="message">Your message</label>
+                                <input class="order-form-input" type="text" id="message" value="Type message here">
+                            <input class="order-sub-btn" type="submit" value="submit">
+                        </form>    
+                   </div>
+                </li>
+            </ul>
+            </div>
+
+    
+    
+    
+            <!-- box 3 -->
+            <div class="left-image">
+                <ul>
+                    <li><img src="../images/coin_gif_R1.gif"></li>
+                    <li><img src="../images/coin_gif_R2.gif"></li>
+                    <li><img src="../images/coin_gif_R3.gif"></li>
+                </ul>
+            </div>
+
+    
+    </div>
+
+
+
+
+
+
+
+
+
+    
+       
+       
+  <!-- Footer -->
+        <div class="footer">
+            Copyright &copy; Penny Juice 2025
+        </div>
+           
+    </div>
+
+</body>
+</html>
+
